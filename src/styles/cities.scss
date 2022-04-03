@@ -12,7 +12,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 2rem; // 32px
-  column-gap: 3.25rem // 52px
+  column-gap: 3.25rem; // 52px
+
+  @media (max-width: 950px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .card {
@@ -37,16 +41,7 @@
     grid-template-columns: 1fr 1fr;
     row-gap: 0.875rem; // 14px
 
-    // div {
-    //   display: flex;
-    // }
-
     p {
-      // Ignora o primeiro p
-      // & + p {
-      //   margin-left: 1.75rem; // 28px;
-      // }
-
       color: var(--text-alt);
 
       span {
