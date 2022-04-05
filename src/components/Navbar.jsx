@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Button } from './Button';
+
 import { ReactComponent as BrazilSvg } from '../assets/brazil.svg';
 import { ReactComponent as PortugalSvg } from '../assets/portugal.svg';
 import { ReactComponent as ItalySvg } from '../assets/italy.svg';
@@ -11,9 +13,10 @@ export function Navbar() {
       <h1>AfroTour</h1>
 
       <div className="button-container">
-        <button><BrazilSvg /> Brasil</button>
-        <button><PortugalSvg /> Portugal</button>
-        ...
+        <Button title="Brasil" icon={BrazilSvg} />
+        <Button title="Portugal" icon={PortugalSvg} />
+        <Button title="Itália" icon={ItalySvg} />
+        <Button title="França" icon={FranceSvg} />
       </div>
     </nav>
   )

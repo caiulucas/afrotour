@@ -1,7 +1,7 @@
 import React from 'react';
 
-export function Button(props) {
+export function Button({ icon: Icon , title }) {
   return (
-    <button>{props.icon}{props.title}</button>
+    <button><Icon />{title}</button>
   )
 }
