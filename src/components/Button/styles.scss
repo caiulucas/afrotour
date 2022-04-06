@@ -1,0 +1,25 @@
+button {
+  &:hover {
+    background-color: var(--button-hover);
+    color: var(--button-color);
+  }
+
+  height: 3.5rem; // 56px;
+  background-color: var(--button-color);
+
+  border: none;
+  border-radius: 1rem; // 16px
+  margin-top: 1.25rem; // 20px
+
+  text-align: left;
+  padding: 0 1.5rem; // 24px;
+
+  display: flex;
+  align-items: center;
+
+  font-size: 1.125rem; // 18px;
+
+  svg {
+    margin-right: 0.5rem; // 8px;
+  }    
+}
