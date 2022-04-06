@@ -17,7 +17,7 @@
   flex-direction: column;
 
   button {
-    &:hover {
+    &:hover, &.selected {
       background-color: var(--button-hover);
       color: var(--button-color);
     }

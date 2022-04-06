@@ -1,0 +1,34 @@
+{
+  "brazil": [
+    {
+      "id": 1,
+      "city_name": "São Paulo",
+      "state": "São Paulo",
+      "area": 1500,
+      "population": "12 M"
+    },
+    {
+      "id": 2,
+      "city_name": "Rio de Janeiro",
+      "state": "São Paulo",
+      "area": 1500,
+      "population": "12 M"
+    }
+  ],
+  "portugal": [
+    {
+      "id": 1,
+      "city_name": "Lisboa",
+      "state": "Estremadura",
+      "area": 100,
+      "population": "500 K"
+    },
+    {
+      "id": 1,
+      "city_name": "Porto",
+      "state": "Douro Litoral",
+      "area": 41.42,
+      "population": "214 K"
+    }
+  ]
+}
