@@ -1,5 +1,5 @@
-button {
-  &:hover {
+.generic-button {
+  &:hover, &.selected {
     background-color: var(--button-hover);
     color: var(--button-color);
   }
