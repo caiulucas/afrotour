@@ -1,5 +1,5 @@
-button {
-  &:hover {
+button.nav-button {
+  &:hover, &.selected {
     background-color: var(--button-hover);
     color: var(--button-color);
   }

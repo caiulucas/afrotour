@@ -14,10 +14,10 @@ export function Navbar() {
       <h1>AfroTour</h1>
 
       <div className="button-container">
-        <Button title="Brasil" icon={BrazilSvg} />
-        <Button title="Portugal" icon={PortugalSvg} />
-        <Button title="Itália" icon={ItalySvg} />
-        <Button title="França" icon={FranceSvg} />
+        <Button country="brazil" icon={BrazilSvg} />
+        <Button country="portugal" icon={PortugalSvg} />
+        <Button country="italy" icon={ItalySvg} />
+        <Button country="france" icon={FranceSvg} />
       </div>
     </nav>
   )
