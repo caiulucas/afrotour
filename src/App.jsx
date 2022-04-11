@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+
 
 import { Navbar } from './components/Navbar';
 import { CityCard } from './components/CityCard';
@@ -10,8 +11,13 @@ import { countryList } from './utils/countryList';
 import { useCities } from './hooks/useCities';
 import { SearchInput } from './components/SearchInput';
 
-export function App() {
+export function App() {  
+  // const [document] = useSinglePrismicDocument('cities');  
   const { cities, selectedCountry } = useCities();
+
+  useEffect(() => {
+     
+  }, [])
 
   return (
     <div className="app">
