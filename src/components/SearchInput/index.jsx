@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import { useCities } from '../../hooks/useCities';
 import './styles.scss';
 
-
-export function SearchInput({}) {
+export function SearchInput() {
   const { listCitiesByName } = useCities();
   const [searchText, setSearchText] = useState('');
 
