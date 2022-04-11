@@ -20,10 +20,11 @@ export function App() {
       <Navbar />
 
       <section className="cities">
-        <div>
+        <div className="search-area">
           <SearchInput />
           <h1>{countries[selectedCountry]}</h1>
         </div>
+        
         <div className="card-container">
           {cities.map(city => (
             <CityCard key={city.id} city={city} />

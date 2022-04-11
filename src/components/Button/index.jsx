@@ -9,7 +9,7 @@ export function Button({ icon: Icon, country }) {
   const { listCitiesByCountry, selectedCountry } = useCities();
 
   async function handleChangeCities() {
-    listCitiesByCountry(country)
+    listCitiesByCountry(country);
   }
 
   return (
